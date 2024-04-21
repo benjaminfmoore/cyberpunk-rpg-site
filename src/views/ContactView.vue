@@ -1,16 +1,16 @@
 <template>
   <div class="about">
-    <ProfileCardComponent />
+    <ContactCardComponent />
   </div>
 </template>
 
 <script>
-import ProfileCardComponent from "@/components/ProfileCard.vue";
+import ContactCardComponent from "@/components/ContactCard.vue";
 
 export default {
   name: "ProfileCard",
   components: {
-    ProfileCardComponent,
+    ContactCardComponent,
   },
 };
 </script>

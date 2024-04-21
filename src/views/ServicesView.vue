@@ -1,5 +1,16 @@
 <template>
-  <div class="home">
-    <h1>Yikers Spikers</h1>
+  <div class="about">
+    <ServicesCardComponent />
   </div>
 </template>
+
+<script>
+import ServicesCardComponent from "@/components/ServicesCard.vue";
+
+export default {
+  name: "ProfileCard",
+  components: {
+    ServicesCardComponent,
+  },
+};
+</script>

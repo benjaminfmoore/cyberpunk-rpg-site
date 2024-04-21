@@ -1,5 +1,16 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <AboutCardComponent />
   </div>
 </template>
+
+<script>
+import AboutCardComponent from "@/components/ProfileCard.vue";
+
+export default {
+  name: "ProfileCard",
+  components: {
+    AboutCardComponent,
+  },
+};
+</script>

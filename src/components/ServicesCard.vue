@@ -1,18 +1,18 @@
 <template>
   <div class="profile-card">
-    <img :src="Ge" alt="Profile Card" />
+    <img :src="El" alt="Profile Card" />
     <p>Roll!</p>
   </div>
 </template>
 
 <script>
-import Ge from "@/assets/G.png";
+import El from "@/assets/L.png";
 
 export default {
   name: "ProfileCard",
   data() {
     return {
-      Ge: Ge,
+      El: El,
     };
   },
 };
